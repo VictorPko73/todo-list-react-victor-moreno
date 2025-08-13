@@ -43,6 +43,7 @@ function TodoList() {
             {list.length > 0 && (
                 <ul className="app-list">
                     {list.map((item, i) => (
+                        
                         <li key={i} className="list-item">
                             <span className="list-text">{item}</span>
                             <button
@@ -54,9 +55,14 @@ function TodoList() {
                                 ✕
                             </button>
                         </li>
+                        
+                        
                     ))}
                 </ul>
             )}
+            <div>
+                <p>Tienes {list.length} tareas pendientes</p>
+            </div>
         </div>
     );
 
