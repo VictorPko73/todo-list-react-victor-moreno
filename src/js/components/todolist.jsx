@@ -29,7 +29,7 @@ function TodoList() {
 
     return (
         <div className="list-container">
-            {/* Contenedor del input y botón */}
+            
             <div className="input-wrapper">
                 <input
                     type="text"
