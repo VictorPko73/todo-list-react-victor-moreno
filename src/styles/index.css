@@ -83,7 +83,7 @@
 }
 
 
-.app-list-item {
+.list-item {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -96,14 +96,14 @@
   transition: transform .08s ease, box-shadow .2s ease, border-color .2s ease, background .2s ease;
 }
 
-.app-list-item:hover {
+.list-item:hover {
   transform: translateY(-1px);
   box-shadow: 0 6px 18px rgba(2,6,23,0.08);
   border-color: #d8e0ee;
   background: linear-gradient(180deg, #ffffff, #f9fbff);
 }
 
-.app-list-text {
+.list-text {
   flex: 1;
   color: #0f172a;
   line-height: 1.35;

@@ -49,8 +49,8 @@ function TodoList() {
             {list.length > 0 && (
                 <ul className="app-list">
                     {list.map((item, i) => (
-                        <li key={i} className="app-list-item">
-                            <span className="app-list-text">{item}</span>
+                        <li key={i} className="list-item">
+                            <span className="list-text">{item}</span>
                             <button
                                 className="remove-button"
                                 onClick={() => removeItem(i)}
