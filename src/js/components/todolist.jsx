@@ -15,13 +15,7 @@ function TodoList() {
         setInput("");
     }
 
-    const onKeyDown = (e) => {
-        if (e.key === "Enter") {
-            e.preventDeafault();
-            addItem;
-        }
-    }
-
+ 
     const removeItem = (idx) => {
         setList((prev) => prev.filter((_, i) => i !== idx));
     };
